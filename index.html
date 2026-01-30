@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="fa">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>ایزوگام و آسفالت شاهان‌گستر کرج</title>
+<link rel="stylesheet" href="style.css">
+<script defer src="j.js"></script>
+</head>
+<body>
+<header id="header">
+  <nav class="navbar">
+    <h1 class="logo">شاهان‌گستر کرج</h1>
+    <ul class="nav-links">
+      <li><a href="#about">درباره ما</a></li>
+      <li><a href="#services">خدمات</a></li>
+      <li><a href="#portfolio">نمونه‌کارها</a></li>
+      <li><a href="#contact">تماس</a></li>
+    </ul>
+  </nav>
+</header>
+
+<section id="hero">
+  <h2>اجرای حرفه‌ای ایزوگام و آسفالت در تهران و کرج</h2>
+  <p>با بیش از دو دهه سابقه، استفاده از مواد استاندارد و ارائه ضمانت‌نامه کتبی.</p>
+  <a href="#services" class="btn">مشاهده خدمات</a>
+</section>
+
+<section id="about">
+  <h2>درباره ما</h2>
+  <p>شرکت شاهان‌گستر کرج پیشرو در اجرای ایزوگام و آسفالت‌کاری در استان‌های تهران و البرز است. تمامی پروژه‌ها توسط تیم‌های متخصص، با تجهیزات روز و رعایت ضوابط استاندارد ملی انجام می‌شود.</p>
+</section>
+
+<section id="services">
+  <h2>خدمات ما</h2>
+  <div class="cards">
+    <div class="card">
+      <h3>نصب ایزوگام</h3>
+      <p>استفاده از ایزوگام پلیمری و نوع ساده با ضمانت‌نامه ۱۰ ساله و اجرا توسط نصابان مجاز.</p>
+    </div>
+    <div class="card">
+      <h3>آسفالت‌کاری تخصصی</h3>
+      <p>اجرای پروژه‌های آسفالت خیابان، پارکینگ و محوطه با غلتک و دستگاه‌های مکانیزه.</p>
+    </div>
+    <div class="card">
+      <h3>ترمیم و قیرپاشی</h3>
+      <p>ترمیم ایزوگام و آسفالت فرسوده، قیرپاشی با قیر پالایشگاهی و آب‌بندی کامل سطح.</p>
+    </div>
+  </div>
+</section>
+
+<section id="portfolio">
+  <h2>نمونه‌کارها</h2>
+  <div class="gallery">
+    <img src="images/photo_2025-10-31_12-54-12.jpg" alt="آسفالت‌کاری با غلتک در محوطه صنعتی">
+    <img src="images/photo_2025-10-31_12-54-29.jpg" alt="مرحله قیراندود ایزوگام در پشت‌بام برج‌ها">
+    <img src="images/photo_2025-10-31_12-53-55.jpg" alt="اجرای ایزوگام نهایی با روکش آلومینیومی">
+  </div>
+</section>
+
+<section id="contact">
+  <h2>تماس با ما</h2>
+  <p>آدرس: کرج فردیس<br>تلفن: ۰۹۳۳۳۶۰۷۹۴۲<br>ایمیل: mehrannabati775@gmail.com</p>
+  <div class="social">
+    <a href="https://t.me/@Nabati110006">تلگرام</a>
+    <a href="https://github.com/mehrannabati775">گیت‌هاب</a>
+  </div>
+</section>
+<!-- جایی در بدنه -->
+<div id="qrcode" style="margin:auto; width:180px; height:180px;"></div>
+
+<!-- اسکریپت تولید QR -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/qrcodejs/1.0.0/qrcode.min.js"></script>
+<script>
+  new QRCode(document.getElementById("qrcode"), {
+    text: "https://shahangostar-karaj.ir",
+    width: 180,
+    height: 180,
+    colorDark : "#000000",
+    colorLight : "#ffffff",
+    correctLevel : QRCode.CorrectLevel.H
+  });
+</script>
+
+<footer>
+  <p>©2025 شاهان‌گستر کرج</p>
+</footer>
+</body>
+</html>
